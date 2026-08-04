@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/GetStartedTutorial/GetStartedTutorial.uss?fileID=7433441132597879392&amp;guid=733b7f0617a7e4465958fa0015e3f456&amp;type=3#GetStartedTutorial"/>
+    <ui:VisualElement name="menu__container">
+        <ui:TextField label="Name" placeholder-text="Enter your name" name="menu__input-name"/>
+        <ui:TextField label="Team" placeholder-text="Enter your team name" name="menu__input-team"/>
+        <ui:Button text="Start" name="menu__button-start"/>
+    </ui:VisualElement>
+</ui:UXML>

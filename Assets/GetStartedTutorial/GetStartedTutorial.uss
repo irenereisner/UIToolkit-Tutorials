@@ -1,0 +1,58 @@
+#menu__container {
+    border-radius: 8px;
+    padding: 16px;
+    margin: 20px;
+    width: 400px;
+    height: 300px;
+    align-self: center;
+    justify-content: center;
+    background-image: url("../Content/Textures/comic-bg.png");
+}
+
+.unity-text-field,
+.unity-button {
+    border-width: 3px;
+    border-radius: 4px;
+    -unity-font-style: bold;
+    -unity-font-definition: url("../Content/Fonts/Bangers/Bangers-Regular.ttf");
+    border-color: rgb(26, 26, 26);
+}
+
+.unity-text-field {
+    background-color: rgb(255, 253, 231);
+    font-size: 18px;
+    color: rgb(26, 26, 26);
+    padding: 4px 8px;
+}
+
+.unity-text-field:focus {
+    border-color: rgb(229, 57, 53);
+}
+
+.unity-text-field__label {
+    min-width: 80px;
+}
+
+.unity-button {
+    background-color: rgb(40, 127, 227);
+    font-size: 20px;
+    color: rgb(26, 26, 26);
+    padding: 6px 16px;
+}
+
+.unity-button:hover {
+    background-color: rgb(85, 154, 234);
+    border-color: rgb(229, 57, 53);
+}
+
+.unity-button:disabled {
+    background-color: rgb(149, 185, 227);
+    border-color: rgb(126, 126, 126);
+    color: rgb(126, 126, 126);
+    opacity: 1;
+}
+
+.unity-button:active {
+    background-color: rgb(0, 114, 255);
+    translate: 2px 2px;
+}
