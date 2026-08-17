@@ -1,0 +1,73 @@
+#profile {
+    width: 400px;
+    max-height: 500px;
+    align-self: center;
+    align-items: stretch;
+    padding: 40px;
+    margin: 40px;
+    background-color: rgb(6, 10, 18);
+    border-color: rgb(0, 195, 245);
+    border-width: 2px;
+    border-radius: 4px;
+}
+
+#profile__image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    align-self: center;
+    aspect-ratio: 1;
+    background-color: rgb(12, 28, 48);
+    border-color: rgb(0, 195, 245);
+    border-width: 3px;
+}
+
+#profile .unity-text-field {
+    margin-bottom: 10px;
+}
+
+#profile .unity-text-field__label {
+    min-width: 80px; 
+    color: rgb(0, 195, 245);
+    font-size: 12px;
+    -unity-font-style: bold;
+}
+
+
+#profile .unity-base-text-field__input {
+    background-color: rgb(4, 14, 28);
+    border-color: rgb(0, 110, 155);
+    border-width: 1px;
+    border-radius: 2px;
+    color: rgb(170, 235, 255);
+}
+
+#profile .unity-base-text-field__input--placeholder {
+    color: rgb(35, 90, 120);
+    -unity-font-style: italic;
+}
+
+#profile .unity-button {
+    background-color: rgb(0, 40, 68);
+    border-color: rgb(0, 195, 245);
+    border-width: 2px;
+    border-radius: 2px;
+    color: rgb(0, 215, 255);
+    font-size: 13px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    margin-top: 20px;
+    padding: 8px;
+}
+
+#profile .unity-button:hover {
+    background-color: rgb(0, 65, 105);
+    border-color: rgb(120, 240, 255);
+    color: rgb(200, 250, 255);
+}
+
+#profile .unity-button:active {
+    background-color: rgb(0, 150, 200);
+    color: rgb(255, 255, 255);
+}

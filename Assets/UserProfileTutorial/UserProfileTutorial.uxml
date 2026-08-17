@@ -1,0 +1,25 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UserProfileTutorial/UserProfileTutorial.uss?fileID=7433441132597879392&amp;guid=3009cb14591a14d7489df47bf9386916&amp;type=3"/>
+    <ui:VisualElement name="profile" data-source-type="Reko.UserData, Assembly-CSharp" style="flex-grow: 1;">
+        <ui:Image name="profile__image">
+            <Bindings>
+                <ui:DataBinding property="style.backgroundImage" data-source-path="Image" binding-mode="ToTarget"/>
+            </Bindings>
+        </ui:Image>
+        <ui:TextField label="Name" placeholder-text="Enter your name" name="profile__input-name">
+            <Bindings>
+                <ui:DataBinding property="value" binding-mode="TwoWay" data-source-path="Name"/>
+            </Bindings>
+        </ui:TextField>
+        <ui:TextField label="E-Mail" placeholder-text="Enter your e-mail address" name="profile__input-mail" keyboard-type="EmailAddress">
+            <Bindings>
+                <ui:DataBinding property="value" data-source-path="Email" binding-mode="TwoWay"/>
+            </Bindings>
+        </ui:TextField>
+        <ui:Button text="Save" name="profile__button-save">
+            <Bindings>
+                <ui:DataBinding property="enabledSelf" data-source-path="Changed" binding-mode="ToTarget"/>
+            </Bindings>
+        </ui:Button>
+    </ui:VisualElement>
+</ui:UXML>
