@@ -1,0 +1,43 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/HoverEffectsTutorial/HoverEffectsTutorial.uss?fileID=7433441132597879392&amp;guid=c40233f32db4e48019c5b579c70c837e&amp;type=3#HoverEffectsTutorial"/>
+    <ui:VisualElement name="ShapeExample" style="flex-direction: row; justify-content: center;">
+        <ui:VisualElement name="Card" class="card card-right-bottom">
+            <ui:VisualElement name="Shape" class="card-blob"/>
+            <ui:Label text="PLAY"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="Card" class="card card-left-bottom">
+            <ui:VisualElement name="Shape" class="card-blob"/>
+            <ui:Label text="OPTIONS"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="Card" class="card card-right-top">
+            <ui:VisualElement name="Shape" class="card-blob"/>
+            <ui:Label text="EXTRAS"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="Card" class="card card-left-top">
+            <ui:VisualElement name="Shape" class="card-blob"/>
+            <ui:Label text="QUIT"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="ExpandButtonExample" style="align-items: center; height: 100px; justify-content: center; margin-bottom: 20px;">
+        <ui:Button text="" class="button">
+            <ui:VisualElement name="circle" class="button-circle">
+                <ui:VisualElement name="icon" class="button-icon"/>
+            </ui:VisualElement>
+            <ui:Label text="LEARN MORE" class="button-text"/>
+        </ui:Button>
+    </ui:VisualElement>
+    <ui:VisualElement name="BlurImagesExample" style="flex-direction: row; align-items: center; justify-content: space-around;">
+        <ui:VisualElement name="" class="blur-image blur-image-light">
+            <ui:Image source="project://database/Assets/Content/Textures/lake.png?fileID=2800000&amp;guid=25718c10c2e27494a8f97893f743eda2&amp;type=3#lake" scale-mode="ScaleAndCrop"/>
+            <ui:Label text="LIGHT BLUR"/>
+        </ui:VisualElement>
+        <ui:VisualElement class="blur-image blur-image-medium">
+            <ui:Image source="project://database/Assets/Content/Textures/lake.png?fileID=2800000&amp;guid=25718c10c2e27494a8f97893f743eda2&amp;type=3#lake" scale-mode="ScaleAndCrop"/>
+            <ui:Label text="MEDIUM BLUR"/>
+        </ui:VisualElement>
+        <ui:VisualElement class="blur-image blur-image-light blur-image-strong">
+            <ui:Image source="project://database/Assets/Content/Textures/lake.png?fileID=2800000&amp;guid=25718c10c2e27494a8f97893f743eda2&amp;type=3#lake" scale-mode="ScaleAndCrop"/>
+            <ui:Label text="STRONG BLUR"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
