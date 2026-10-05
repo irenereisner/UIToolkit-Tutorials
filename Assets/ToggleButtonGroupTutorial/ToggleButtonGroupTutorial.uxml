@@ -1,0 +1,14 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/ToggleButtonGroupTutorial/ToggleButtonGroupTutorial.uss?fileID=7433441132597879392&amp;guid=4bf334682e3ae4455a190b25dfe3cde7&amp;type=3#ToggleButtonGroupTutorial"/>
+    <ui:VisualElement name="menu" data-source-type="Reko.ToggleButtonGroupSettings, Assembly-CSharp">
+        <ui:ToggleButtonGroup label="" name="menu__difficulty" data-source-type="Reko.GameSettings, Assembly-CSharp">
+            <ui:Button text="Easy"/>
+            <ui:Button text="Medium"/>
+            <ui:Button text="Hard"/>
+            <ui:Button text="Insane"/>
+            <Bindings>
+                <ui:DataBinding property="value" data-source-path="difficulty" binding-mode="TwoWay"/>
+            </Bindings>
+        </ui:ToggleButtonGroup>
+    </ui:VisualElement>
+</ui:UXML>
