@@ -1,0 +1,6 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Leaderboard/Leaderboard.uss?fileID=7433441132597879392&amp;guid=e4ece521c07ce4f09ae624d26ebedef5&amp;type=3#Leaderboard"/>
+    <ui:VisualElement name="background">
+        <ui:ListView name="leaderboard" virtualization-method="DynamicHeight" selection-type="None" item-template="project://database/Assets/Leaderboard/LeaderboardEntry.uxml?fileID=9197481963319205126&amp;guid=3c901c305c008434fba4877c75a4bff7&amp;type=3#LeaderboardEntry" show-alternating-row-backgrounds="All"/>
+    </ui:VisualElement>
+</ui:UXML>

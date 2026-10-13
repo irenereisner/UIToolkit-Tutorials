@@ -1,0 +1,25 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Leaderboard/LeaderboardEntry.uss?fileID=7433441132597879392&amp;guid=8e583ad4c1e904dbcb89c7f2ee75af7d&amp;type=3#LeaderboardEntry"/>
+    <ui:VisualElement name="player" data-source-type="PlayerData, Assembly-CSharp" style="flex-direction: row;">
+        <ui:Image name="player-portrait">
+            <Bindings>
+                <ui:DataBinding property="source" data-source-path="Portrait" binding-mode="ToTarget"/>
+            </Bindings>
+        </ui:Image>
+        <ui:Label name="player-name" text="Name">
+            <Bindings>
+                <ui:DataBinding property="text" data-source-path="Name" binding-mode="ToTarget"/>
+            </Bindings>
+        </ui:Label>
+        <ui:Label name="player-points" text="100">
+            <Bindings>
+                <ui:DataBinding property="text" data-source-path="Points" binding-mode="ToTarget"/>
+            </Bindings>
+        </ui:Label>
+        <ui:Label name="player-position" text="1">
+            <Bindings>
+                <ui:DataBinding property="text" data-source-path="Position" binding-mode="ToTarget"/>
+            </Bindings>
+        </ui:Label>
+    </ui:VisualElement>
+</ui:UXML>

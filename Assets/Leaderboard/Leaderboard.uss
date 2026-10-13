@@ -1,0 +1,13 @@
+#background {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+#leaderboard {
+    width: 400px;
+    border-radius: 4px;
+    padding: 20px;
+    background-color: rgb(6, 10, 18);
+}
+
